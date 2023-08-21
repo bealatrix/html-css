@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularios</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cabeçalho</h1>
+    </header>
+    <div class="overlay" id="overlay">
+      <div class="form-container">
+        <div class="tabs">
+          <span class="tab" id="login-tab">Login</span>
+          <span class="tab" id="signup-tab">Cadastro</span>
+        </div>
+        <form class="login-form" id="login-form">
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+          <button type="submit">Entrar</button>
+        </form>
+        <form class="signup-form" id="signup-form">
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+          <input type="password" placeholder="Confirmar Senha" required />
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
